@@ -189,3 +189,4 @@ const SensorData = () => {
 }
 
 export default SensorData
+

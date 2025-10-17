@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Dashboard from './components/Dashboard'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
+import DemoVideo from './components/DemoVideo'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/demovideo" element={<DemoVideo />} />
             </Routes>
           </main>
         </div>
@@ -24,3 +26,4 @@ function App() {
 }
 
 export default App
+
